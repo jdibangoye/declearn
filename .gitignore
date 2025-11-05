@@ -1,0 +1,33 @@
+
+# TPI specific
+*.pkl
+*.npz
+debug_*.py
+results/
+experiments/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Virtual env
+venv/
+.env

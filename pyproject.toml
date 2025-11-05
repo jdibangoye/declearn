@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "declearn"
+version = "0.0.0"
+description = "declearn (local)"
+authors = [{name = "local"}]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["declearn*"]
+exclude = ["runs*"]
